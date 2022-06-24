@@ -1,4 +1,12 @@
+div#header {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: xx-large;
+    text-align: center;
+}
 div.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+    gap: 25px;
 }
